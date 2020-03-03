@@ -1,1 +1,32 @@
+1.	Apakah jawaban Anda di Worksheet 01 dan Program sama persis? Jika Tidak? Kenapa?
+Jawab :
+Sama
+
+Fakta (1.1):
+Seorang wanita tetap bertunangan dari titik di mana dia menerima proposal pertamanya; dan urutan mitra yang bertunangan dengannya menjadi lebih baik dan lebih baik lagi (hal ini sesuai dengan daftar preferensi wanita). Tidak perlu dipertanyakan
+
+Fakta (1.2):
+Urutan wanita yang dilamar pria lebih buruk dan lebih buruk lagi (hal ini sesuai dengan daftar preferensi pria). Tidak perlu dipertanyakan
+
+Teorema (1.3):
+Algoritma G-S berakhir setelah paling banyak n2 iterasi menggunakan While Loop. Buktikan!
+Jawab :
+
+
+Teorema (1.4):
+Jika seorang pria  bebas di beberapa titik dalam eksekusi algoritma, maka ada seorang wanita yang belum dia ajak bertunangan.
+Buktikan!
+Jawab :
+
+
+Teorema (1.5):
+Himpunan S yang dikembalikan saat terminasi adalah perfect matching.
+Buktikan!
+Jawab :
+
+
+Teorema (1.6):
+Sebuah eksekusi algoritma G-S mengembalikan satu set pasangan S. Set S adalah pasangan yang stabil.
+Buktikan!
+Jawab :
 
