@@ -1,0 +1,90 @@
+Nama	: Ikbal Antoni
+Kelas	: B
+NPM   : 140810170054
+
+Cari himpunan Stable-matching yang sesuai dengan preference list dari list di soal worksheet.
+Uraikan output untuk setiap loop mengikuti algoritma G-S.
+
+Jawab
+Victor	> Bertha
+Wyatt	> Diane
+Xavier	> Bertha
+Konflik antara Victor dan Bertha.
+Bertha lebih memilih Xavier.
+Victor berganti memilih Amy.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Diane
+Xavier	> Bertha
+Yancey	> Amy
+Konflik antara Victor dan Yancey.
+Amy lebih memilih Victor.
+Yancey berganti memilih Diane.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Diane
+Xavier	> Bertha
+Yancey	> Diane
+Konflik antara Wyatt dan Yancey.
+Diane lebih memilih Yancey.
+Wyatt berganti memilih Bertha.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Bertha
+Xavier	> Bertha
+Yancey	> Diane
+Konflik antara Wyatt dan Xavier.
+Bertha lebih memilih Xavier.
+Wyatt berganti memilih Amy.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Amy
+Xavier	> Bertha
+Yancey	> Diane
+Konflik antara Victor dan Wyatt.
+Amy lebih memilih Victor.
+Wyatt berganti memilih Clare.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Clare
+Xavier	> Bertha
+Yancey	> Diane
+Zeus	> Bertha
+Konflik antara Xavier dan Zeus.
+Bertha lebih memilih Xavier.
+Zeus berganti memilih Diane.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Clare
+Xavier	> Bertha
+Yancey	> Diane
+Zeus	> Diane
+Konflik antara Yancey dan Zeus.
+Diane lebih memilih Zeus.
+Yancey berganti memilih Clare.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Clare
+Xavier	> Bertha
+Yancey	> Clare
+Zeus	> Diane
+Konflik antara Wyatt dan Yancey.
+Clare lebih memilih Wyatt.
+Yancey berganti memilih Bertha.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Clare
+Xavier	> Bertha
+Yancey	> Bertha
+Zeus	> Diane
+Konflik antara Xavier dan Yancey.
+Bertha lebih memilih Xavier.
+Yancey berganti memilih Erika.
+-----------------------------------------------
+Victor	> Amy
+Wyatt	> Clare
+Xavier	> Bertha
+Yancey	> Erika
+Zeus	> Diane
+
+Himpunan Stable-matching = {(Victor,Amy), (Wyatt,Clare), (Xavier,Bertha), (Yancey,Erika), (Zeus, Diane)}
