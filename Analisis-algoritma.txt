@@ -11,22 +11,23 @@ Urutan wanita yang dilamar pria lebih buruk dan lebih buruk lagi (hal ini sesuai
 Teorema (1.3):
 Algoritma G-S berakhir setelah paling banyak n2 iterasi menggunakan While Loop. Buktikan!
 Jawab :
-
+Pada saat menggunakan while loop memiliki kemajuan , yaitu dimana pria lajang melamar wanita berikutnya dalam daftar pilihannya, lalu seseorang yang belum pernah ia ajukan sebelumnya. Karena ada n laki-laki dan setiap daftar prefensi memiliki panjang n, ada paling banyak proposal n2 ynag dapat terjadi. Jadi jumlah dalam iterasi yang bisa terjadi paling banyak adalah n2
 
 Teorema (1.4):
 Jika seorang pria  bebas di beberapa titik dalam eksekusi algoritma, maka ada seorang wanita yang belum dia ajak bertunangan.
 Buktikan!
 Jawab :
-
+Buktinya berdasarkan kontradiksi. Misalkan ada waktu tertentu dalam pelaksanaan algoritma ketika seorang pria lajang, namun telah mengusulkan kepada setiap wanita. Ini berarti, setiap wanita telah diusulkan setidaknya satu kali. Dengan teori 1, mendapatkan bahwa setiap wanita bertunangan. Jadi, kita telah  melibatkan n wanita dan karenanya n laki-laki bertunangan, yang menyiratkan bahwa m juga terlibat bertentangan dengan asumsi  bahwa m adalah lajang.
 
 Teorema (1.5):
 Himpunan S yang dikembalikan saat terminasi adalah perfect matching.
 Buktikan!
 Jawab :
-
+Karena setiap laki-laki berpasangan dengan setiap wanita
 
 Teorema (1.6):
 Sebuah eksekusi algoritma G-S mengembalikan satu set pasangan S. Set S adalah pasangan yang stabil.
 Buktikan!
 Jawab :
-
+Menunjukkan bahwa pencocokan yang dikembalikan adalah pencocokan sempurna. Buktinya dengan kontradiksi. Misalkan tidak, maka ada seorang pria yang masih lajang di akhir algoritma. Menurut teori 2, itu berarti m belum melamar beberapa wanita. Tetapi kemudian, algoritma tidak akan keluar dari pengulangan loop, menghasilkan kontradiksi yang diinginkan.
+Menunjukkan bahwa pencocokan yang dikembalikan stabil. Lagi-lagi buktinya dengan kontradiksi. Misalkan ada laki-laki m dan m’ dan wanita w dan w’ sehingga (m, w) dan (m’, w’) berada di S, tetapi m lebih suka w’ ke w dan w’ lebih suka m ke m’. Dengan algoritma, w adalah wanita terakhir yang saya ajukan. Karena m lebih suka w’ ke w, m harus sudah mengusulkan ke w’ sebelum usulannya ke w. Pada saat itu, atau nanti, w’ bertunangan dengan seorang pria, katakanlah m’’, yang ia sukai lebih dari m. Pada akhirnya, w’ bertunangan dengan m’. Oleh teori 1, menemukan bahwa w’ lebih memilih m’ daripada m’’ dan lebih memilih m’’ daripada m; ini menyiratkan bahwa w’ lebih suka m’ daripada m, bertentangan dengan asumsi bahwa w’ lebih memilih m daripada m’.
